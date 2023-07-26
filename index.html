@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizza Shop</title>
+  <img src="https://www.foodandwine.com/thmb/4qg95tjf0mgdHqez5OLLYc0PNT4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg" alt="Pizza", width=250, height=250>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #F5DEB3;">
+    <a href="about.html">about us</a>
+  <h1 style="color: orange;">Pizza Shop</h1>
+  <h2 style="color: yellow;">Place an Order</h2>
+  <form action="order.php" method="post">
+    <div>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone" style="color: orange;">
+    </div>
+    <div>
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="date" style="color: orange;">
+    </div>
+    <div>
+      <label for="time">Time:</label>
+      <input type="time" name="time" id="time" style="color: orange;">
+    </div>
+    <div>
+      <label for="address">Address:</label>
+      <input type="text" name="address" id="address" style="color: orange;">
+    </div>
+    <div>
+      <label for="pizza_dough">Pizza Dough:</label>
+      <select name="pizza_dough" id="pizza_dough" style="color: orange;">
+        <option value="thin">Thin</option>
+        <option value="thick">Thick</option>
+        <option value="gluten-free">Gluten-Free</option>
+      </select>
+    </div>
+    <div>
+      <label for="toppings">Toppings:</label>
+      <input type="checkbox" name="toppings[]" value="pepperoni" style="color: orange;">Pepperoni
+      <input type="checkbox" name="toppings[]" value="sausage" style="color: orange;">Sausage
+      <input type="checkbox" name="toppings[]" value="mushrooms" style="color: orange;">Mushrooms
+      <input type="checkbox" name="toppings[]" value="onions" style="color: orange;">Onions
+      <input type="checkbox" name="toppings[]" value="green peppers" style="color: orange;">Green Peppers
+    </div>
+    <div>
+      <label for="beverage">Beverage:</label>
+      <select name="beverage" id="beverage" style="color: orange;">
+        <option value="coke">Coke</option>
+        <option value="pepsi">Pepsi</option>
+        <option value="sprite">Sprite</option>
+        <option value="water">Water</option>
+      </select>
+    </div>
+    <input type="submit" value="Place Order" style="color: orange;">
+  </form>
+  <h2>Menu</h2>
+  <table style="background-color: yellow;">
+    <tr>
+      <th>Pizza Dough</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Thin</td>
+      <td>$5.00</td>
+    </tr>
+    <tr>
+      <td>Thick</td>
+      <td>$6.00</td>
+    </tr>
+    <tr>
+      <td>Gluten-Free</td>
+      <td>$7.00</td>
+    </tr>
+  </table>
+  <table style="background-color: yellow;">
+    <tr>
+      <th>Topping</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Pepperoni</td>
+      <td>$1.00</td>
+    </tr>
+    <tr>
+      <td>Sausage</td>
+      <td>$1.00</td>
+    </tr>
+    <tr>
+      <td>Mushrooms</td>
+      <td>$0.50</td>
+    </tr>
+    <tr>
+      <td>Onions</td>
+      <td>$0.50</td>
+    </tr>
+    <tr>
+    
